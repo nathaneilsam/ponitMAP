@@ -40,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent)
     QMenu *pFile = mBar->addMenu("文件");
     QMenu *pedit = mBar->addMenu("编辑");
     QMenu *ptool = mBar->addMenu("工具");
-//    QMenu *pvisual= mBar->addMenu("视图");
+    QMenu *pvisual= mBar->addMenu("视图");
     QMenu *phelp = mBar->addMenu("帮助");
 
 
