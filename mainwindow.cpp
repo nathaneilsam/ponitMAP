@@ -147,19 +147,19 @@ MainWindow::MainWindow(QWidget *parent)
              }
              );
      //工具栏快捷键添加
-     QToolBar *toolBar=addToolBar("toolBar");
-     toolBar->addAction(pNew);
-
-     QPushButton *b= new QPushButton(this);
-     b->setText("^_^");
-     toolBar->addWidget(b);
-     connect(b,&QPushButton::clicked,
-             [=]()
-     {
-         b->setText("123");
-     }
-
-             );
+//     QToolBar *toolBar=addToolBar("toolBar");
+//     toolBar->addAction(pNew);
+//
+//     QPushButton *b= new QPushButton(this);
+//     b->setText("^_^");
+//     toolBar->addWidget(b);
+//     connect(b,&QPushButton::clicked,
+//             [=]()
+//     {
+//         b->setText("123");
+//     }
+//
+//             );
 
     //添加状态栏
      QStatusBar *sBar =statusBar();
